@@ -4,7 +4,7 @@ used for plotting TERRA models. Depth slices and cross sections. Absolute Vs, Vp
 
 
 plot_TERRA_xsections_perts.py
-This script plots cross sections through TERRA models in terms of perturbations from the mean at each depth.
+This script plots perturbations relative to the 1D (whole mantle) average at each depth (i.e., the global mean profile at each radius/depth), not just the average along the cross-section.
 
 You will need to change the "basepath" path, "model_list_file" path the plate boundary paths.
 
